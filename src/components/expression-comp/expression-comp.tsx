@@ -12,14 +12,14 @@ export const ExpressionComp = ({ className }: ExpressionCompProps) => {
     return (
         <div className={`${styles.root} ${className}`}>
             <ConditionalComp />
-            {arr.map((item) => (
-                <p>{item}</p>
+            {arr.map((item,key) => (
+                <p key={key}>{item}</p>
             ))}
             <hr />
             <hr />
             <hr />
-            {arr.map((item) => (
-                <p>{boolArr[arr.indexOf(item)] ? <h5>{item}</h5> : 'but it was false'}</p>
+            {arr.map((item, key) => (
+                <div key={key}>{boolArr[arr.indexOf(item)] ? <h5>{item}</h5> : 'but it was false'}</div>
             ))}
         </div>
     );

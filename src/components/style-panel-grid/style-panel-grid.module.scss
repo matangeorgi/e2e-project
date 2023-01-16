@@ -1,0 +1,35 @@
+.root {
+}
+.TwoXTwoGrid {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.red {
+  background-color: #ca2121;
+  width: 150px;
+  height: 150px;
+}
+.box {
+  min-width: 150px;
+  min-height: 150px;
+  position: static;
+}
+.yellow {
+  background-color: #f8f808;
+}
+.blue {
+  background-color: #0066ff;
+}
+.NEWclass {
+}
+.dasdasd {
+}
+.fdgdfg {
+}
+.sdfsdfdsf {
+}
+.sdfdsfsdfdsf {
+}

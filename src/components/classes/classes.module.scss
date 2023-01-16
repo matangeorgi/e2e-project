@@ -1,0 +1,56 @@
+$base-color: #c6538c;
+$height: 100px;
+.root {
+}
+.Bombastic {
+  position: absolute;
+  width: 200px;
+  height: $height;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  direction: ltr;
+  background-color: $base-color;
+  border-radius: 20px;
+  box-shadow: 4.95px 4.95px 51px black;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: ease-in 10s;
+  font-family: Didot, serif;
+  &:disabled {
+    &:active {
+    }
+    &:active {
+    }
+  }
+}
+
+.Bombastic:hover {
+  height: calc(5 * ($height));
+}
+.extra {
+}
+.extra2 {
+}
+.extra3 {
+}
+.extra4 {
+}
+.extra5 {
+}
+.newCLASS {
+}
+.dxv {
+}
+.dsfsdfsd {
+}
+.asdasdasdsadasdasdasdasdasdsadasdasd {
+  &:active:disabled:focus:hover {
+  }
+  &:active:disabled:focus:hover {
+  }
+  &:active:disabled:focus:hover {
+  }
+}
