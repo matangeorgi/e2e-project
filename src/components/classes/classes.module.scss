@@ -6,7 +6,7 @@ $height: 100px;
   position: absolute;
   width: 200px;
   height: $height;
-  font-size: 30px;
+  font-size: 50px;
   line-height: 50px;
   font-weight: bolder;
   font-style: italic;
@@ -30,6 +30,18 @@ $height: 100px;
 .Bombastic:hover {
   height: calc(5 * ($height));
 }
+
+div {
+  color: red;
+  position: relative;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+}
+
+* {
+  font-size: 16px !important;
+}
+
 .extra {
 }
 .extra2 {
