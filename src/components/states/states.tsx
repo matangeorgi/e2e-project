@@ -1,13 +1,6 @@
 import styles from './states.module.scss';
+import classNames from 'classnames';
 
-export interface StatesProps {
-    className?: string;
-}
-
-export const States = ({ className }: StatesProps) => {
-    return (
-        <div className={`${styles.root} ${className}`}>
-            <button className={styles.buttonClass}>Button</button>
-        </div>
-    );
+export const States = ({ className }: React.HTMLProps<HTMLButtonElement>) => {
+    return <button className={classNames(styles.root, className)}>Button</button>;
 };
