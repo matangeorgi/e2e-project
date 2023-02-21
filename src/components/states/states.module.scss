@@ -1,0 +1,16 @@
+.root {
+}
+.buttonClass {
+  &:hover {
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #ab1818;
+    cursor: pointer;
+  }
+  &:disabled {
+    opacity: 0.4;
+    border-radius: 1px;
+    border: 10px solid black;
+    box-shadow: 3px 3px 2px black;
+  }
+}
