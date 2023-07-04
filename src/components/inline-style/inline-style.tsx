@@ -15,7 +15,7 @@ export const InlineStyle = ({ className }: InlineStyleProps) => {
                 boxShadow: '2.83px 2.83px 2px 51px black',
             }}
         >
-            InlineStyle
+            InlineStylee
         </div>
     );
 };
