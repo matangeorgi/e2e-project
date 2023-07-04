@@ -3,5 +3,8 @@ import { States } from '../../../components/states/states';
 
 export default createBoard({
     name: 'States',
-    Board: () => <States />
+    Board: () => <States />,
+    environmentProps: {
+        canvasHeight: 23,
+    },
 });
