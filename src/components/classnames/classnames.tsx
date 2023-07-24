@@ -6,5 +6,5 @@ export interface ClassnamesProps {
 }
 
 export const Classnames = ({ className }: ClassnamesProps) => {
-    return <div className={cx(styles.root, 'NEWcLASS', styles.nice)}>Classnames</div>;
+    return <div className={cx(styles.root, 'NEWcLASS', styles.nice,className)}>Classnames</div>;
 };
