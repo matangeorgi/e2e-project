@@ -11,7 +11,7 @@ export default createBoard({
             obj={{ test: 'test' }}
             bool={false}
             func={() => console.log('hey')}
-            enum={Seasons.winter}
+            enum={Seasons.asdas}
         />
     ),
 });
