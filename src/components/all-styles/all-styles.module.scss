@@ -28,6 +28,8 @@
   position: relative;
   display: inline-block;
   overflow: visible;
+  transform: scale(1.5);
+  transition: all 1s ease-in-out;
 }
 
 .inCodeClass{
