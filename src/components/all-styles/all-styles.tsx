@@ -7,7 +7,7 @@ export interface AllStylesProps {
 export const AllStyles = ({ className }: AllStylesProps) => {
     return (
         <div className={`${styles.root} ${styles.inCodeClass} ${className}`}>
-            <h1 className={styles.header}>Heading 1</h1>
+            <h1 className={styles.header}>Heading 112312312</h1>
             <img
                 src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
                 className={styles.image}
