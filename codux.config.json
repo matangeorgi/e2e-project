@@ -13,12 +13,6 @@
     "maxInstancesPerComponent": 1000
   },
   "scripts": {
-    "install": {
-      "title": "Install",
-      "description": "Run install",
-      "command": "npm i",
-      "trigger": ["checkout", "pull", "setup"]
-    }
   },
   "styling": {
     "solution": "scss modules"
