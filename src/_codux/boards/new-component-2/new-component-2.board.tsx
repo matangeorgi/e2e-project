@@ -13,8 +13,8 @@ export default createBoard({
     Board: () => (
         <NewComponent2
             enum={Seasons}
-            arr={[1, 2, 3, 4]}
-            color={'red'}
+            arr={[1, 2, 3, 4, 55454]}
+            color={'redגגגג'}
             obj={{ test: 'test' }}
             bool={false}
             func={() => console.log('hey')}
