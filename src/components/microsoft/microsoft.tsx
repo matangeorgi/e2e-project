@@ -10,7 +10,7 @@ export const Microsoft = ({ className }: MicrosoftProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <StylePanelGrid />
-            Microsofttttttttttttttttttttttttttt
+            Microsoftsdasdasd
         </div>
     );
 };
