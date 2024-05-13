@@ -12,8 +12,6 @@
   "safeRender": {
     "maxInstancesPerComponent": 1000
   },
-  "scripts": {
-  },
   "styling": {
     "solution": "scss modules"
   },
